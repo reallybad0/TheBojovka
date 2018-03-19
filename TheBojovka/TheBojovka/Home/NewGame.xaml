@@ -1,0 +1,20 @@
+﻿<Page x:Class="TheBojovka.Home.NewGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TheBojovka.Home"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="NewGame">
+
+    <Grid>
+        <Grid x:Name="CNTNT">
+
+            <Button Content="Zavřít" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+            <TextBox x:Name="JmenoTB" HorizontalAlignment="Left" Height="45" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Margin="51,94,0,0"/>
+            <Label Content="Jak ti říkají?" FontSize="13" HorizontalAlignment="Left" Height="55" Margin="51,34,0,0" VerticalAlignment="Top" Width="192"/>
+            <Button Content="Uložit" HorizontalAlignment="Left" Height="27" Margin="166,144,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click_1"/>
+        </Grid>
+    </Grid>
+</Page>

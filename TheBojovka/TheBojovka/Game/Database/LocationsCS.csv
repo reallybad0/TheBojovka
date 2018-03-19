@@ -1,0 +1,131 @@
+0;"Bojovka zaèíná. ""Následuj svíèky"", øíká ti vedoucí. Zhluboka se nadechneš a vycházíš vpøed, do temného lesa.";1;1
+1;Nedaleko pøed sebou vidíš plápolat plamen svíèky. Vyrazíš za ním. Z cesty není kam uhnout.;1;1
+2;"""Stùj, cizinèe!"" zastaví tì vyšší postava s falešnımi fousy a dlouhım hnìdım pláštìm.""Moc se mi nechce tì pouštìt dál. Dál toti mùou jen nebojácní lidé..."" hlásí s tázavım pohledem na tváøi. ";2;1
+3;"Mu si podrbe falešné vousy a zamyšlenì odpoví ""Sám vlastnì úplnì nevím. Popravdì jsem správnou odpovìï zapomnìl. Kdyby se nìkdo ptal, tak jsi to uhodl"".";2;1
+4;"Následuješ stezku a pøicházíš k mui s maskou známého filmového zabijáka. Mluví tiše, ale zøetelnì. ""Nepospíšíš-li si najdu si tì"".";2;1
+5;Došel jsi se na rozcestí. Pøímo pøed tebou se cesta dìlí na dvì èásti. Zdá se ti, e napravo v dáli vidíš zhasínající plamínek svíèky. Cesta je však plná vìtví. Kterım smìrem se vydáš?;4;2
+6;Vydal jsi se cestou vpravo. Jak klopıtáš pøes koøeny, skuteènì pøihcázíš k èajové svíèce. Náhle však zavane studenı vítr a svíèka zhasne.;1;1
+7;Vydal jsi se smìrem nalevo. Cesta se rozhodnì zdá bezpeènìjší, avšak po nìkolika minutách chùze stále nevidíš ádné svìtılko. Cesta za tebou jako by mizela.;1;1
+8;Pøicházíš na rozcestí. Cesta více nalevo se opìt zdá bezpeènìjší. Cesta napravo smìøuje kolem vysokého pole.Kterım smìrem se vydáš?;4;2
+9;Zvolil jsi smìr vlevo. Procházíš temnım lesem a po zádech ti bìhá mráz. Slyšíš praskat vìtve a pøemıšlíš, zda jsi v lese sám.;1;1
+10;Pokraèuješ po lesní vyšlapané stezce. Tolik se soustøedíš na kamenitou pùdu pod nohama, e si ani nevšimneš, e se blííš ke shrbené postavì.;1;1
+11;NPC - Babushka;2;1
+12;Díky tvé velkorysosti mùeš pokraèovat v cestì pøímo za svìtlem mìsíce. Nedaleko tebe zahouká sova, a pøes cestu ti pøebìhne veverka.;1;1
+13;Pokraèuješ rovnì, kdy vtom zaslechneš povìdomé hlasy. Èím rychleji jdeš, tím hlasitìjší se hlasy zdají bıt. Les se postupnì rozestupuje, stromy øídnou, a nakonec sláva! Zahlédneš udivené pohledy tvıch vedoucí. Všichni jsou pøekvapeni, jak jsi se na tuto èást stezky dostal, jeliko vùbec touto cestou nevedla. Rozpaèitì ti pogratulují k jejímu zdolání a pøedají diplom, lízátko, a za nejrychlejší èas i zlatou Fidorku.;3;1
+14;Vydáváš se pøes lesní cestu, zkratku zpìt k malému políèku. ;1;1
+15;Projdeš kolem dvou obrovskıch mraveniš a pøipojíš se na známou stezku. (8);1;1
+16;NPC - Scarface;5;1
+17;Pokraèuješ cestou, kdy si náhle všimneš, e napravo od tebe, kde bıvala pevná pùda je nyní rozlehlé jezero. V jeho hladinì se odráí úplnìk.;1;1
+18;Vypadá to, e stezka pokraèuje smìrem do polí. Úzká cestièka se oddìluje a pokraèuje kolem jezera. Kterou cestou se vydáš?;4;2
+19;Vydáváš se smìrem do polí. Procházíš mezi zlatımi klasy, a provází tì šumivı zvuk zralého jeèmene. Náhle ti kolem hlavy rychle proletí jakısi hmyz. Otøe se køídlem o tvou tváø a stejnì rychle jak se objevil, tak i zmizí.;1;1
+20;Zamíøíš smìrem kolem jezera. Pùlnoèní mrazivé ticho narušuje jen obèasné skøehotání ropuch.;1;1
+21;NPC - Muddy;2;1
+22;Po hrozivém záitku s páchnoucím vodním monstrem jsi rád, e se ti podaøilo uniknout. Udıchanı pøicházíš na rozcestí. Pøed tebou se tyèí jakási skála. Budeš riskovat setkání s bahnitım monstrem chùzí podél bøehu jezera, nebo se vydáš okolo skály?;4;2
+23;Cesta kterou procházíš je z obou stran obklopena nekoneènım jezerem. Je velmi úzká, proto si musíš dávat pozor a nespadnout do vody. Kdo ví, jestli by jsi ještì nìkdy spatøil svìtlo svìta, pohltila by-li tì hlubina.;1;1
+24;Lesní cesta na kterou pøicházíš je stále širší a širší. Stromy se zdají svìtlejší, podobné tìm, které jsi vidìl na zaèátku lesa, na zaèátku bojovky. ;1;1
+25;Podle tichého šumìní soudíš, e se nacházíš poblí potoka. Cesta se zaène zuuje…;1;1
+26;Najednou se pøed tebou objeví propast. Na dnì propasti poletují svìtlušky, a ševel listí jako by ti našeptával e nejsi sám. Obejdeš tuto oblast obloukem, nebo se jí vydáš prozkoumat? ;4;2
+27;Vydal jsi se oblast prozkoumat. Kamenné schody tì vedou do hlubin jakési jámy. Vzhledem k vysoké vlhkosti jsou schody porostlé mechem. Musíš se pevnì dret, jinak tì témìø jistì èeká pád dolù. ;1;1
+28;Podaøilo se ti udobøit rodinu jelenních lidí. Všichni kolem tebe jsou šastní a obdivují tì. Oslavují tvou bytost a pøipíjejí borovicovım nápojem na tvé zdraví. Nìkolik jelenních dívek ti dává onoho zvláštního nápoje napít. Náhle se ti zamotá hlava. Pomalu se sesuneš na nadıchanı mech pod sebou a poslední vìc kterou vidíš jsou svìtlušky, nevinnì krouící nad tvojí hlavou. ... ... S námahou otevíráš oèi a mouráš do pøímıch sluneèních paprskù. Posadíš se a zmatenì se rozhlííš kolem sebe. Kolem tebe není ani vidu ani slechu po jelenních lidech. Jáma ve které se nacházíš jen poklidnì šumí a ty u víš, jak se dostat domù.;3;1
+29;Podél potoka je nezvyklı klid. Takovı klid se ti vùbec nelíbí. Mrazí tì z nìj v kostech. Náhle se ti kolem nohou zaène omotávat líná, chladivá mlha. Skoro jako by tì ta mlha opravdu drela za nohu!;1;1
+30;NPC- Foggy BOSS;2;1
+31;Je to zázrak, e se ti podaøilo pøeít boj s mystickım mlhovım duchem. Jsi vyèerpanı. Zdá se, e chodíš u celou noc. Bolí tì nohy, záda a pomalu tì zaèíná pøemáhat únava. ;1;1
+32;Pøed tebou se tyèí kopec a ty si povšimneš, e viditelnost je kadou minutou vìští. Blíí se svítání.;1;1
+33;Z posledních sil se škrábeš do kopce. Nohy ti podkluzují po trávì vlhké od rosy, ale nevzdáváš se.. Slunce u je témìø na obzoru…;1;1
+34;Poslední krok a ty stojíš na vrcholu. Slunce stoupá vzhùru, zpoza kopcù a osvìtluje okolní krajinu. Dıcháš vlanì pøíjemnı ranní vánek a usmíváš se na svìt. Podíváš se na sebe a náhle ti zaène tuhnout krev v ilách. Tvé rudì zabarvené ruce se lesknou a ve sluneèním svitu odráejí krutou, krvavou pravdu. Za sebou jsi nechal spoustu mrtvıch nevinnıch tvorù. Jsi pøipraven s touto pravdou ít? ;3;1
+35;Rozhodl jsi se pro stezku kolem skály. Je vysoká, avšak nepùsobí nijak dìsivì. Za rohem náhle spatøíš otvor a zjistíš, e jsi se octl pøed jeskyní.;1;1
+36;Uprostøed cesty leí nìkolik kamenù, které tam zcela urèitì nepatøí. Jsou a neobvykle velké. Podaøí se ti je pøelézt a pokraèuješ v cestì kupøedu.;1;1
+37;NPC - Badger;2;1
+38;NPC- HONEY;5;1
+39;NPC - FLAWN;2;1
+40;Následuješ mlhu, dokud nenarazíš na povìdomou mıtinku. Objeví se pøed tebou plácek na kterém bojovka zaèínala. Pøes plácek se táhne líná mlha, a ty poprvé za celou noc cítíš opravdovı strach. Náhle však nìkdo zavolá tvé jméno. Následuješ hlas kterı unavenì opakuje tvé jméno, dokud se témìø nesrazíš se svım oblíbenım vedoucím. Radostnì tì obejme. ;3;1
+41;"Po chvíli chùze potkáváš tajemnì obleèenou enu. Chvíli jen oba mlèíte. Náhle však ena pozvedne oèi a pohlédne na tebe. ""Èekala jsem tì.."" praví a popojde blí."" Vítr mi pošeptal, e tì na této stezce èekají velké vìci…"" sáhne do kapsy a vytáhne hrací kostku. ""Vem si tohle. Budeš to potøebovat."" ";2;1
+42;Jen co se kostka dotkne tvé dlanì, záhadná ena na tebe foukne rùovı prášek. Kdy se vzpamatuješ, je u pryè.;2;1
+43;Zrùdo ?;1;1
+44;Zhluboka se nadechneš a ze studu a smutku se pøevalíš pøes okraj kopce. ;1;1
+45;"""Nebojácnost však není jediná vìc potøeba k dokonèení této stezky odvahy"" pokraèuje ""je tøeba bıt také dostateènì inteligentní..."" ... "" Poloím ti tedy záludnou otázku"" usoudí. S hlubokım nádechem praví  ""Pokud je ve stáji plné lidí a koòù celkem 72 nohou a 22 hlav. Kolik párù oèí vidíš?""";2;2
+46;Ach jaká to náhoda! U jsem zaèínala ztrácet nadìji..;2;1
+47;U hodiny tady chodím, snaím se najít náušnici po mé prababièce, ale nikde není k nalezení. Moc ta náušnice pro mì znamenala.. Nemùu ji jen tak ztratit pøi procházce v lese…;2;2
+48;Vy jste tedy nezdvoøilı! To jste mi teda moc nepomohl… (Babushka se s tebou odmítá dál bavit);2;2
+49;To byste byl moc hodnı! Ztratila jsem ji nìkde po cestì sem (ukazuje smìrem doprava);2;1
+50;Jste to vy?! Našel jste ji?;2;2
+51;Propána! To je ona! Dìkuji Vám mnohokrát. Jsem Vám velice vdìèná…;2;2
+52;Ukate? Kdepak, to není ona…;2;1
+53;Buenos Dias! Mi amigo, pomùete mi? Jsem ponìkud ztracen...;2;2
+54;Mierda! Jsme snad ve Španìlsku, ne? Copak mi nerozumíš?;2;2
+55;Hlupáku. Nevíš, s kım si zahráváš…;2;2
+56;To bys mìl! Jednou, a to budeš nejménì oèekávat si tì najdu! (Odchází);2;1
+57;V tom pøípadì nejsi hoden tajemství mého klanu..;2;1
+58;Hledám cestu na maškarní.. Nevíš kudy se dostat na Casa di Fiesta?;2;2
+59;Dios mio! Ty neznáš Carnaval v Casa di Fiesta? Co jsi to za èlovìka…;2;2
+60;Moná bude lepší, kdy to tak zùstane. Sbohem;2;1
+61;Báchorka?! Jakápak báchorka? Teï jsi mì urazil, cabrón…;2;2
+62;U tì nechci ani vidìt (Pøestane se s tebou bavit);2;1
+63;(Podezøele) Nedìláš si ze mì legraci, huevo?;2;2
+64;Ha! Za to zaplatíš!;2;1
+65;..No dobrá. Gracias, mi amigo. Mìj se tedy pøíteli. Dios sea contigo!;2;1
+66;Boj (Useless, nevolá se);5;1
+67;((Bzzz)) Haló? Je.. Je tam nìkdo? Cítím vás.. Vèely vás cítí. Nebojte se mnì…;2;1
+68;Øíkají mi medovník kvùli ((ukazuje si na hlavu)) tomuhle, ale vlastnì se jmenuju Tomík.;2;1
+69;Pøed pár lety jsme si s kamarády hráli na vojáky.. Stál jsem pod stromem a nedával pozor, kdy vtom jeden z kamarádù hodil po vìtvi nade mnou kámen. Ze stromu spadlo vèelí hnízdo a narazilo se mi na hlavu..;2;2
+70;Nìkdo tu kdysi byl, nìco mi èmáral na oblièej..;2;2
+71;Opravdu? Tak to jsem rád… Tøeba nìkdy budu mít kamarády, ale to je tìké s úlem na hlavì..;2;2
+72;Coe? (Vèely ti zaènou zuøivì létat kolem hlavy) Škleb? Lidé jsou tak zkaení!;2;2
+73;Prosím, neodcházej… Tolik dnù a nocí jsem si s nikım nepopovídal..Nemám ádné kamarády, jediné co celé dny slyším je bzukot vèel…;2;2
+74;To se ještì uvidí ( Vèely se rozletí naproti tobì);2;1
+75;Opravdu? Jak to chceš udìlat?;2;2
+76;(Rukama vytáhne královnu z hlubin úlu a nechá jí letìt).. Roj vèel postupnì opustí všechny kouty úlu a Tomík zùstane stát s prázdnım úlem na hlavì;2;1
+77;A-ano… myslím e ano.;2;2
+78;Páni!Já vidím! Mùu se vrátit domù! Dìkuju ti! Jsi mùj novı nejlepší pøítel!;2;1
+79;Podává ti plástev medu ;7;1
+80;Na to nemám sílu… Zùstanu radši tady. Dìkuji ti za tvou pomoc… ;2;1
+81;Ghbrllll, nemysli si, e tì nechám jen tak projít…;2;2
+82;Tak prosím prosím?Ghrbhhhhh nemám rád lidi s planımi øeèmi a ádnımi èiny…;2;1
+83;Jak se opovauješ! (Napøahuje se bahnitou tlapou);2;1
+84;Hmmmbrlllll, (Podává ti tyè) poškrábej mì na zádech touhle tyèí;2;2
+85;GHHh! To je uráka! ;2;2
+86;Ahhhh, to je úleva… Dìkuji ti. Mùeš jít touhle zkratkou. ;2;1
+87;AAAA! (Skoèí pøed tebe)  Kdo se to opovauje vstoupit do mojí jeskynì?! ;2;2
+88;Doka to, cizinèe! Jak si myslíš e jsem pøišel k mé kùi?;2;2
+89;Jsem z- Mírumilovnì? .. No, to máš pravdu, cizinèe. Tenhle jezevec se mi dobrovolnì obìtoval, nijak se nebránil.. Jsi chytøejší ne se zdáš..Moná by z nás byli dobøí pøátelé… Jaké jsou tvé úmysly? ;2;1
+90;Procházej tedy dál! Nebudu tì zdrovat. Vem si sebou tenhle medvìdí dráp.Tøeba ho budeš potøebovat..Nikdy nevíš, na co v lese narazíš;2;1
+91;Prosím?! Tak teï jsem u opravdu rozzuøenı! Pøídeš si do mojí jeskynì a obviòuješ mì tu ze zabijáctví! Tak abys vìdìl, tenhle jezevec se mi dobrovolnì vzdal. Vùbec se nebránil! ;2;2
+92;Tak a mám toho právì dost! Vyzıvám tì na souboj!;2;1
+93;No já si myslím.. Jaké jsou tedy tvé úmysly?;2;1
+94;Procházej tedy dál! Nezdruj mì od mé práce.. (Otoèí se zády);2;1
+95;Ano! Jsem hrabì Cevezej a tato jeskynì je mé království.;2;2
+96;Tohle ti nebudu trpìt!;2;1
+97;Omluva pøijata, ale u prosím jdi. Nemám rád návštìvy. Zdruješ mì.;2;1
+98;Ale ale… Cizinec.. Kampak máš namíøeno?;2;2
+99;Ztratil? (Smìje se) Všichni v tomhle lese jsou ztracení… Nebo bych snad mìl øíct, zatracení?;2;1
+100;Ještì ti to nedošlo? Tenhle les je prokletı.. Kadı kdo v nìm je, se odtud nikdy nedostane. Ti, co se odtud dostanou, u nikdy nejsou takoví jako pøedtím. Co ty? Jakou cestu si zvolíš;2;2
+101;To ale nebude tak lehké.. Poloím ti nìkolik otázek. Kterákoliv špatná odpovìï tì mùe stát ivot. První otázka tedy zní.. Vèelky se váou na?;2;2
+102;2. Casa di Fiesta se nachází?;2;2
+103;Za jakıch podmínek se tvoøí mlhy?;2;2
+104;Pro tentokrát tì nechám jít.. Vím,kam máš namíøeno.. a  vypadá to e sis z noèní bojovky i nìco odnesl… Pokraèuj támhle.. do kopce.. A neohlíej se.;2;1
+105;Špatnì… Špatnì špatnì špatnì. ;2;1
+106;Mùu tì tam dostat.. Jsem mlha, dostanu se kamkoliv…;2;1
+107;To mám udìlat? Mám tì pøátelsky dovézt a na konec a všechno tohle skonèí dobøe? ;2;1
+108;Ale proè bych tohle dìlal… (smìje se);2;1
+109;Zdravím tì.. Vítej ve mìstì Lesních. Bohuel nejsi jeden z nás, proto tì budu muset vykázat…;2;2
+110;Øíkají mi Chybník, protoe, jak sis mohl všimnout, chybí mi parohy.. Dost se to u nás v klanu øeší.. a èasto se mi kvùli tomu posmívají.;2;2
+111;Nemùu za to. Prostì jsem se takhle narodil.;2;1
+112;Ty? Asi nijak. Jedinı zpùsob jak mou rodinu pøesvìdèit e jsem jelen jak se patøí je porazit jiného v souboji. A to bez parohù nedokáu.;2;2
+113;Myslíš? Vìøíš e to dokáu? (Nadìjnì) Tak dobøe! Zkusím to! Hej! (Vyvolá souboj s blízkım statnım jelenem);2;1
+114;Dokázal jsem to! Nemùu tomu uvìøit! To všechno díky tobì! Dnes veèer poøádáme oslavu, chceš se pøidat?;2;2
+115;Asi máš  pravdu… Musím tì odtud odvést..;2;1
+116;… Prosím odejdi.. (Chybník se s tebou odmítá dál bavit);2;1
+117;N- neopovauj se! Nebo tì budu muset  zastavit! ;7;2
+118;Na zemi leí zelená naušnice;7;1
+119;Podává ti Medvìdí Dráp;7;1
+120;Podává ti Sušenku;7;1
+121;Naušnice na zemi!;7;1
+122;Boj s Babushkou;5;1
+123;Boj s Medovníkem;5;1
+124;Boj s Chybníkem;5;1
+125;Boj s Bláhnem;5;1
+126;Boj se Strašákem;5;1
+127;Boj s Cevezejem ;5;1
+128;Boj s Mlhou;5;1
+129;KONEC;3;1
+0;0;0;0

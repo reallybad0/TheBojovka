@@ -1,0 +1,162 @@
+161;129;Konec… ;0
+8;0;Pokraèovat dál;1
+9;1;Jít dál;2
+10;45;Nìkolik;3
+11;45;Netuším;3
+14;42;Pokraèovat  ;4
+15;4;Rychle zmizet;5
+1;5;Doprava;6
+0;5;Doleva;7
+16;7;Zrychlit a jít dál;8
+22;15;Achjo, zase tady;8
+2;8;Nalevo, do temného lesa;9
+17;9;Pokraèovat dál do lesa;10
+44;120;Podìkovat a odejít;12
+19;12;Následovat mìsíc;13
+21;14;Pokraèovat po cestì ;15
+50;121;Vzít naušnici;15
+51;48;Odejít pryè;15
+114;120;Podìkovat a jít lesem;15
+152;122;Odejít z boje;15
+3;8;Vpravo, kolem pole;53
+43;6;A sakra;53
+59;56;Dobøe (Odejít);17
+69;57;(Jít pryè);17
+70;60;Odejít a neohlížet se;17
+71;62;Opustit Strašáka;17
+73;65;Adios! (Odejít);17
+156;126;Vzdát se;17
+23;17;Jù,pìkný jezero;18
+4;18;Do polí;19
+5;18;Kolem jezera;20
+79;72;Utéct;20
+81;69;To mì nezajímá(Odejít);20
+82;73;Tvùj problém (Odejít);20
+88;77;Nechat to na nìm (Odejít);20
+90;80;Dobrá;20
+91;71;Tak tøeba nìkdy.. (Odejít);20
+99;79;Vzít si plástev;20
+153;123;Utéct z boje;20
+25;20;Nevšímat si jich;81
+96;83;Utéct pøed bahnem!(Odejít);22
+155;125;Pøestat bojovat;22
+103;86;Já ti dìkuji! (Odejít);23
+26;23;Opatrnìji našlapovat;24
+41;36;Jít pøes kameny dál;24
+27;24;Pokraèovat kupøedu;25
+28;25;Ostražitì naslouchat;26
+30;26;Jít prozkoumat!;27
+148;114;Pøipojit se k oslavám;28
+29;26;Obejít;29
+142;117;Dobrá, pùjdu sám(Odejít);29
+143;116;Otoèit se a odejít;29
+149;114;Nechci se zúèastnit.;29
+151;115;Sledovat ho;29
+32;29;!!!;30
+158;128;Pokud uteèeš, èeká tì strašný konec;31
+33;31;Vzmužit se a pokraèovat!;32
+34;32;Vzhùru kupøedu!;33
+35;33;Nevzdát to!;34
+7;22;Okolo skály;35
+6;22;Podél bøehu jezera;36
+113;119;(Odejít z jeskynì);36
+120;97;Tak jo (Odejít);36
+154;124;Opustit boj;36
+157;127;Utéct pryè;36
+160;94;Jít…;36
+40;35;Vkroèit do jeskynì;87
+24;19;Pokraèovat do polí;38
+31;27;Nebojím se. Jdu dál!;109
+133;104;Díky…;40
+12;3;Odejít;41
+13;41;Vzít kostku;42
+36;34;Ano;43
+37;34;Ne;44
+45;2; -->;45
+18;10;Jít ke shrbené postavì;46
+46;46;Co se dìje?;47
+47;47; A? Co mi je do toho?;48
+48;47;Chcete pomoct?;49
+54;53;Bueno, co?;54
+56;54;Ne.Jaký zpropadený Španìlsko?;55
+58;55;Už se bojím;56
+60;54;Nerozumím, je mi líto;57
+55;53;To nejste sám…;58
+61;58;Opravdu nevím, o co jde?;59
+62;59;Vùbec nevím o èem mluvíte;60
+63;59;Ta báchorka?;61
+65;61;To jsem nechtìl;62
+66;58;Ach tak! To musíte doprava a pak rovnì!;63
+67;63;(Ironicky) Ale kdepak;64
+68;63;To bych si nedovolil;65
+20;13;Rozbìhnout se;66
+74;67;Co jsi zaè?;68
+75;68;Co se ti stalo Tomíku?;69
+76;69;Proboha…;70
+77;70;Máš tam úsmìv;71
+78;70;Máš tam škleb;72
+83;73;Nechci být tvùj kamarád ;74
+84;71;Pomùžu ti najít kamarády..;75
+85;75;Zbav se královny v úlu;76
+86;76;Jsi v poøádku?;77
+87;77;Sundat mu úl;78
+98;78;Výbornì!;79
+89;75;Bìž do svìta;80
+93;81;Notaak, prosíím;82
+95;82;Ty tu jen tak mluvíš;83
+94;81;Co mám udìlat;84
+100;84;Ani nápad;85
+101;84;(Poškrábat ho);86
+102;85;No dobøe, poškrábu tì.;86
+106;87;Pøicházím v míru!;88
+107;88;Mírumilovnì;89
+108;89;Jen tudy procházím;90
+115;91;Dobrá, promiòte..;90
+159;93;Jen jdu kolem;90
+110;88;Jsi zabiják;91
+111;91;No jasnììì;92
+116;87;Tvojí jeskynì?;95
+117;95;Hrabì? Kolik ti je? Kde máš rodièe? Jsi k smíchu;96
+118;95;Tak to se omlouvám…;97
+121;98;Ztratil jsem se;99
+123;99;…. Prosím?;100
+125;100;Odejít zpátky;101
+127;101;Královnu;102
+128;102;Ve Španìlsku;103
+130;103;Teplota nižší než rosný bod;104
+126;101;Úl;105
+129;102;V Itálii;105
+131;103;Teplota vyšší než rosný bod;105
+122;98;Co je ti do toho?;106
+134;106;Doveï mì na konec lesa!;107
+135;107;Ano!;108
+137;109;Kdo jsi?;110
+138;110;To je hloupý;111
+145;111;Jak ti mùžu pomoct?;112
+146;112;Ale dokážeš! Použij vìtve místo parohù!;113
+147;113;(Sledovat boj);114
+150;112;To je sebevražda…;115
+139;110;(Posmívat se);116
+140;109;Pff(Cpát se dál);117
+109;90;Dìkuji!;119
+53;51;To nic nebylo;120
+49;49;Jít doprava ;121
+52;48;Zaútoèit na Babushku;122
+80;72;Bránit se vèelám (Boj);123
+92;74;Bránit se!;123
+141;117;Jen do toho!(Boj);124
+144;116;Vyzvat ho na souboj ;124
+97;83;Zaútoèit na bahòáka!(Boj);125
+104;85;To prostì nepùjde(Boj);125
+105;81;Zaútoèit na Bláhno!(Boj);125
+57;55;Chci to zjistit (Bojovat);126
+64;61;(Bojovat);126
+72;64;To se uvidí! (Boj);126
+112;92;Bojovat s hrabìtem!;127
+119;96;Haha! (Bojovat);127
+124;100;Bojovat s mlhou;128
+132;105;Bránit se!! ;128
+136;108;… (Pøipravit se na boj);128
+38;43;Jo, to jsem já;129
+39;44;((Jsi tuhej));129
+42;40;Konec!;129
