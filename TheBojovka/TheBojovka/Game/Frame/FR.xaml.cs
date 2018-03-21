@@ -72,7 +72,12 @@ namespace TheBojovka
             var Scenes = engine.ReadFile(GetDBFilePath("NPC.csv"));
             return Scenes;
         }
-
+        public TheBojovka.Player[] GetPlayer()
+        {
+            var engine = new FileHelperEngine<Player>();
+            var Scenes = engine.ReadFile(GetDBFilePath("Player.txt"));
+            return Scenes;
+        }
         //Fillings 
         protected void FillAfterOpt(object sender, EventArgs e)
         {
@@ -376,6 +381,7 @@ namespace TheBojovka
                 Application.Current.Shutdown();
             }
         }
+        //!!!!!!
         private void ExitSave_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -384,7 +390,9 @@ namespace TheBojovka
                 var engine = new FileHelperEngine<Player>();
                 var pal = new List<Player>();
                 pal.Add(CurrentPlayer[0]);
-                engine.WriteFile("Player.txt", pal);
+
+                engine.WriteFile(GetDBFilePath("Player.txt"), pal);
+
                 MessageBox.Show("Pokrok byl uložen!");
                 MessageBox.Show("Pomalu usínáš na mechovém podnose... ~");
                 Application.Current.Shutdown();

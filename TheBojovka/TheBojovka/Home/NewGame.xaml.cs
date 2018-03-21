@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FileHelpers;
+using System.Media;
+using System.IO;
+
 namespace TheBojovka.Home
 {
     /// <summary>
@@ -31,7 +34,15 @@ namespace TheBojovka.Home
             CNTNT.Visibility = Visibility.Hidden;
 
         }
+        public string GetDBFilePath(string fileName)
+        {
+            string dirpath = @Directory.GetCurrentDirectory();
+            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
+            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\Database\");
+            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
+            return FullFilePath;
 
+        }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //IF v databázi již záznam => messagebox ("Nová hra smaže starou :l ")
@@ -46,7 +57,7 @@ namespace TheBojovka.Home
                 var engine = new FileHelperEngine<Player>();
                 var pal = new List<Player>();
                 pal.Add(p);
-                engine.WriteFile("Player.txt", pal);
+                engine.WriteFile(GetDBFilePath("Player.txt"), pal);
 
                 var engineItems = new FileHelperEngine<Item>();
                 engineItems.WriteFile("Items.txt", i);
