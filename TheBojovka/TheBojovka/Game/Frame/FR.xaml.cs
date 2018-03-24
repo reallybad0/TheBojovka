@@ -85,12 +85,12 @@ namespace TheBojovka
         {
             IMG someimg = new IMG();
             if (ID > 45 && ID < 53 ||ID == 122 ) { someimg = new IMG(ID, GetFilePath(50 + "NPC.gif")); }
-            else if (ID > 52 && ID < 66 || ID == 123) { someimg = new IMG(ID, GetFilePath(60 + "NPC.gif")); }
-            else if (ID > 66 && ID < 81 || ID == 124) { someimg = new IMG(ID, GetFilePath(70 + "NPC.gif")); }
-            else if (ID > 80 && ID < 87 || ID ==125) { someimg = new IMG(ID, GetFilePath(80 + "NPC.gif")); }
-            else if (ID > 86 && ID < 98 || ID ==126) { someimg = new IMG(ID, GetFilePath(90 + "NPC.gif")); }
-            else if (ID > 97 && ID < 109 || ID ==127) { someimg = new IMG(ID, GetFilePath(100 + "NPC.gif")); }
-            else if (ID > 108 && ID < 118 || ID ==128 ) { someimg = new IMG(ID, GetFilePath(110 + "NPC.gif")); }
+            else if (ID > 52 && ID < 66 || ID == 126) { someimg = new IMG(ID, GetFilePath(60 + "NPC.gif")); }
+            else if (ID > 66 && ID < 81 || ID == 123) { someimg = new IMG(ID, GetFilePath(70 + "NPC.gif")); }
+            else if (ID > 80 && ID < 87 || ID == 125) { someimg = new IMG(ID, GetFilePath(80 + "NPC.gif")); }
+            else if (ID > 86 && ID < 98 || ID ==127) { someimg = new IMG(ID, GetFilePath(90 + "NPC.gif")); }
+            else if (ID > 97 && ID < 109 || ID ==128) { someimg = new IMG(ID, GetFilePath(100 + "NPC.gif")); }
+            else if (ID > 108 && ID < 118 || ID ==124 ) { someimg = new IMG(ID, GetFilePath(110 + "NPC.gif")); }
             else
             {
                 someimg = new IMG(ID, GetFilePath(ID + "NPC.gif"));
@@ -99,28 +99,19 @@ namespace TheBojovka
         }
         public IMG ReturnBackgroundUri(int ID)
         {
-            IMG bck = new IMG();
-            //babi
-            if (ID > 45 && ID < 53 || ID ==122) { bck = new IMG(ID, GetFilePath(50 + ".gif")); }
-            //trašák
-            else if (ID > 52 && ID < 66 || ID ==123 ) { bck = new IMG(ID, GetFilePath(60 + ".gif")); }
-            //med
-            else if (ID > 66 && ID < 81 || ID ==124) { bck = new IMG(ID, GetFilePath(70 + ".gif")); }
-            //bahno
-            else if (ID > 80 && ID < 87 || ID ==125) { bck = new IMG(ID, GetFilePath(80 + ".gif")); }
-            //jezevec
-            else if (ID > 86 && ID < 98 || ID ==126) { bck = new IMG(ID, GetFilePath(90 + ".gif")); }
-            //mlha
-            else if (ID > 97 && ID < 109 || ID ==127) { bck = new IMG(ID, GetFilePath(100 + ".gif")); }
-            //jelen
-            else if (ID > 108 && ID < 118 || ID ==128) { bck = new IMG(ID, GetFilePath(110 + ".gif")); }
+            IMG someimg = new IMG();
+            if (ID > 45 && ID < 53 || ID == 122) { someimg = new IMG(ID, GetFilePath(50 + ".gif")); }
+            else if (ID > 52 && ID < 66 || ID == 126) { someimg = new IMG(ID, GetFilePath(60 + ".gif")); }
+            else if (ID > 66 && ID < 81 || ID == 123) { someimg = new IMG(ID, GetFilePath(70 + ".gif")); }
+            else if (ID > 80 && ID < 87 || ID == 125) { someimg = new IMG(ID, GetFilePath(80 + ".gif")); }
+            else if (ID > 86 && ID < 98 || ID == 127) { someimg = new IMG(ID, GetFilePath(90 + ".gif")); }
+            else if (ID > 97 && ID < 109 || ID == 128) { someimg = new IMG(ID, GetFilePath(100 + ".gif")); }
+            else if (ID > 108 && ID < 118 || ID == 124) { someimg = new IMG(ID, GetFilePath(110 + ".gif")); }
             else
             {
-                bck = new IMG(ID, GetFilePath(ID + ".gif"));
-
+                someimg = new IMG(ID, GetFilePath(ID + ".gif"));
             }
-            return bck;
-
+            return someimg;
 
         }
         //Get Paths
@@ -278,7 +269,7 @@ namespace TheBojovka
 
                 
             }      
-            //Normální scéna
+            //
             else
             {
                 imageuri = ReturnBackgroundUri(Scene.ID);
@@ -327,7 +318,7 @@ namespace TheBojovka
             }
             else
             {
-                image.UriSource = new Uri(GetFilePath(25 + ".gif"));
+                image.UriSource = new Uri(GetFilePath(4 + ".gif"));
             }
             image.EndInit();
 
@@ -357,24 +348,17 @@ namespace TheBojovka
             {
                 if (Monster.HP <= 0)
                 {
-                    winner = 1;
                     alive = false;
                 }
                 else if (CurrentPlayer[0].hp <= 0)
                 {
-                    winner = 0;
                     alive = false;
                 }
                 else
                 {
                     
-                    Description.Text = Monster.HP.ToString();
-                    //MessageBox.Show("");
-                    //Fill progress bar? 
-                    //Fill button na hod / útěk
 
                     PGB.Value = CurrentPlayer[0].hp;
-                    //MessageBox.Show("FIGHT");
                     int MonsterThrow = HodKostkou(Monster.Level);
                     int PlayerThrow = HodKostkou(CurrentPlayer[0].Level);
 
@@ -391,9 +375,6 @@ namespace TheBojovka
                     }
                     int minusPlayer = MonsterThrow - playerdefense;
                     CurrentPlayer[0].hp = CurrentPlayer[0].hp - (minusPlayer);
-                    
-                    
-                    //MessageBox.Show(CurrentPlayer[0].hp.ToString());
                     int minus;
                     if (PlayerThrow > Monster.Defense)
                     {
@@ -406,10 +387,34 @@ namespace TheBojovka
                     Description.Text += "\n Celkem jsi monstru ubral "+ minus +" zdraví. Ty jsi ztratil " + minusPlayer;
                     Monster.HP = Monster.HP - (minus);
                     EnemyProgressBar.Value = Monster.HP;
-                    MessageBox.Show("OK");
+
+
+
+                    MessageBoxResult result = MessageBox.Show("Přímmý zásah!\nChceš v boji pokračovat?", "Souboj", MessageBoxButton.YesNo);
+                    switch (result)
+                    {
+                        case MessageBoxResult.Yes:
+                             break;
+                        case MessageBoxResult.No:
+                            MessageBox.Show("Utíkáš z boje...", "Útěk");
+                            winner = 2;
+                            alive = false;
+                            //alive = false;
+                            break;
+                    }
+
                 }
             }
-
+            if (Monster.HP <= 0)
+            {
+                winner = 1;
+                
+            }
+            else if (CurrentPlayer[0].hp <= 0)
+            {
+                winner = 0;
+            
+            }
             if (winner == 1)
             {
                 MessageBox.Show("Vyhrál jsi!");
@@ -419,10 +424,16 @@ namespace TheBojovka
                 Versus.Visibility = Visibility.Hidden;
                 //FILLSCENE()
             }
-            else
+            else if(winner == 0)
             {
-                MessageBox.Show("Jsi ded :( ");
+                MessageBox.Show("Jsi mrtvý :( ");
                 Application.Current.Shutdown();
+            }
+            else if(winner == 2)
+            {
+                EnemyProgressBar.Visibility = Visibility.Hidden;
+                Versus.Visibility = Visibility.Hidden;
+
             }
         }
         public int HodKostkou(int level)
