@@ -2,7 +2,7 @@ Typy :
 1 Normální scéna 
 2 NPC
 3 Konec
-4 Rozhodování
+4 Rozhodování /useless
 5 Boj
 6 Konec Boje/ "Vypaøení"?
 7 Sebrání itemu

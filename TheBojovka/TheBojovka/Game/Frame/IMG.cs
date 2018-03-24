@@ -10,6 +10,10 @@ namespace TheBojovka
     {
         public int ID;
         public string Adress;
+        public IMG()
+        {
+
+        }
 
        public IMG(int iD, string adress)
         {

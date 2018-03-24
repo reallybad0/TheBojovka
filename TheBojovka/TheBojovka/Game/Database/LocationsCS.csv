@@ -9,17 +9,17 @@
 8;Pøicházíš na rozcestí. Cesta více nalevo se opìt zdá bezpeènìjší. Cesta napravo smìøuje kolem vysokého pole.Kterım smìrem se vydáš?;4;2
 9;Zvolil jsi smìr vlevo. Procházíš temnım lesem a po zádech ti bìhá mráz. Slyšíš praskat vìtve a pøemıšlíš, zda jsi v lese sám.;1;1
 10;Pokraèuješ po lesní vyšlapané stezce. Tolik se soustøedíš na kamenitou pùdu pod nohama, e si ani nevšimneš, e se blííš ke shrbené postavì.;1;1
-11;NPC - Babushka;2;1
+11; ---;2;1
 12;Díky tvé velkorysosti mùeš pokraèovat v cestì pøímo za svìtlem mìsíce. Nedaleko tebe zahouká sova, a pøes cestu ti pøebìhne veverka.;1;1
 13;Pokraèuješ rovnì, kdy vtom zaslechneš povìdomé hlasy. Èím rychleji jdeš, tím hlasitìjší se hlasy zdají bıt. Les se postupnì rozestupuje, stromy øídnou, a nakonec sláva! Zahlédneš udivené pohledy tvıch vedoucí. Všichni jsou pøekvapeni, jak jsi se na tuto èást stezky dostal, jeliko vùbec touto cestou nevedla. Rozpaèitì ti pogratulují k jejímu zdolání a pøedají diplom, lízátko, a za nejrychlejší èas i zlatou Fidorku.;3;1
 14;Vydáváš se pøes lesní cestu, zkratku zpìt k malému políèku. ;1;1
 15;Projdeš kolem dvou obrovskıch mraveniš a pøipojíš se na známou stezku. (8);1;1
-16;NPC - Scarface;5;1
+16; ---;5;1
 17;Pokraèuješ cestou, kdy si náhle všimneš, e napravo od tebe, kde bıvala pevná pùda je nyní rozlehlé jezero. V jeho hladinì se odráí úplnìk.;1;1
 18;Vypadá to, e stezka pokraèuje smìrem do polí. Úzká cestièka se oddìluje a pokraèuje kolem jezera. Kterou cestou se vydáš?;4;2
 19;Vydáváš se smìrem do polí. Procházíš mezi zlatımi klasy, a provází tì šumivı zvuk zralého jeèmene. Náhle ti kolem hlavy rychle proletí jakısi hmyz. Otøe se køídlem o tvou tváø a stejnì rychle jak se objevil, tak i zmizí.;1;1
 20;Zamíøíš smìrem kolem jezera. Pùlnoèní mrazivé ticho narušuje jen obèasné skøehotání ropuch.;1;1
-21;NPC - Muddy;2;1
+21; ---;2;1
 22;Po hrozivém záitku s páchnoucím vodním monstrem jsi rád, e se ti podaøilo uniknout. Udıchanı pøicházíš na rozcestí. Pøed tebou se tyèí jakási skála. Budeš riskovat setkání s bahnitım monstrem chùzí podél bøehu jezera, nebo se vydáš okolo skály?;4;2
 23;Cesta kterou procházíš je z obou stran obklopena nekoneènım jezerem. Je velmi úzká, proto si musíš dávat pozor a nespadnout do vody. Kdo ví, jestli by jsi ještì nìkdy spatøil svìtlo svìta, pohltila by-li tì hlubina.;1;1
 24;Lesní cesta na kterou pøicházíš je stále širší a širší. Stromy se zdají svìtlejší, podobné tìm, které jsi vidìl na zaèátku lesa, na zaèátku bojovky. ;1;1
@@ -28,16 +28,16 @@
 27;Vydal jsi se oblast prozkoumat. Kamenné schody tì vedou do hlubin jakési jámy. Vzhledem k vysoké vlhkosti jsou schody porostlé mechem. Musíš se pevnì dret, jinak tì témìø jistì èeká pád dolù. ;1;1
 28;Podaøilo se ti udobøit rodinu jelenních lidí. Všichni kolem tebe jsou šastní a obdivují tì. Oslavují tvou bytost a pøipíjejí borovicovım nápojem na tvé zdraví. Nìkolik jelenních dívek ti dává onoho zvláštního nápoje napít. Náhle se ti zamotá hlava. Pomalu se sesuneš na nadıchanı mech pod sebou a poslední vìc kterou vidíš jsou svìtlušky, nevinnì krouící nad tvojí hlavou. ... ... S námahou otevíráš oèi a mouráš do pøímıch sluneèních paprskù. Posadíš se a zmatenì se rozhlííš kolem sebe. Kolem tebe není ani vidu ani slechu po jelenních lidech. Jáma ve které se nacházíš jen poklidnì šumí a ty u víš, jak se dostat domù.;3;1
 29;Podél potoka je nezvyklı klid. Takovı klid se ti vùbec nelíbí. Mrazí tì z nìj v kostech. Náhle se ti kolem nohou zaène omotávat líná, chladivá mlha. Skoro jako by tì ta mlha opravdu drela za nohu!;1;1
-30;NPC- Foggy BOSS;2;1
+30; ---;2;1
 31;Je to zázrak, e se ti podaøilo pøeít boj s mystickım mlhovım duchem. Jsi vyèerpanı. Zdá se, e chodíš u celou noc. Bolí tì nohy, záda a pomalu tì zaèíná pøemáhat únava. ;1;1
 32;Pøed tebou se tyèí kopec a ty si povšimneš, e viditelnost je kadou minutou vìští. Blíí se svítání.;1;1
 33;Z posledních sil se škrábeš do kopce. Nohy ti podkluzují po trávì vlhké od rosy, ale nevzdáváš se.. Slunce u je témìø na obzoru…;1;1
 34;Poslední krok a ty stojíš na vrcholu. Slunce stoupá vzhùru, zpoza kopcù a osvìtluje okolní krajinu. Dıcháš vlanì pøíjemnı ranní vánek a usmíváš se na svìt. Podíváš se na sebe a náhle ti zaène tuhnout krev v ilách. Tvé rudì zabarvené ruce se lesknou a ve sluneèním svitu odráejí krutou, krvavou pravdu. Za sebou jsi nechal spoustu mrtvıch nevinnıch tvorù. Jsi pøipraven s touto pravdou ít? ;3;1
 35;Rozhodl jsi se pro stezku kolem skály. Je vysoká, avšak nepùsobí nijak dìsivì. Za rohem náhle spatøíš otvor a zjistíš, e jsi se octl pøed jeskyní.;1;1
 36;Uprostøed cesty leí nìkolik kamenù, které tam zcela urèitì nepatøí. Jsou a neobvykle velké. Podaøí se ti je pøelézt a pokraèuješ v cestì kupøedu.;1;1
-37;NPC - Badger;2;1
-38;NPC- HONEY;5;1
-39;NPC - FLAWN;2;1
+37; ---;2;1
+38; ---;2;1
+39; ---;2;1
 40;Následuješ mlhu, dokud nenarazíš na povìdomou mıtinku. Objeví se pøed tebou plácek na kterém bojovka zaèínala. Pøes plácek se táhne líná mlha, a ty poprvé za celou noc cítíš opravdovı strach. Náhle však nìkdo zavolá tvé jméno. Následuješ hlas kterı unavenì opakuje tvé jméno, dokud se témìø nesrazíš se svım oblíbenım vedoucím. Radostnì tì obejme. ;3;1
 41;"Po chvíli chùze potkáváš tajemnì obleèenou enu. Chvíli jen oba mlèíte. Náhle však ena pozvedne oèi a pohlédne na tebe. ""Èekala jsem tì.."" praví a popojde blí."" Vítr mi pošeptal, e tì na této stezce èekají velké vìci…"" sáhne do kapsy a vytáhne hrací kostku. ""Vem si tohle. Budeš to potøebovat."" ";2;1
 42;Jen co se kostka dotkne tvé dlanì, záhadná ena na tebe foukne rùovı prášek. Kdy se vzpamatuješ, je u pryè.;2;1
@@ -77,7 +77,7 @@
 76;(Rukama vytáhne královnu z hlubin úlu a nechá jí letìt).. Roj vèel postupnì opustí všechny kouty úlu a Tomík zùstane stát s prázdnım úlem na hlavì;2;1
 77;A-ano… myslím e ano.;2;2
 78;Páni!Já vidím! Mùu se vrátit domù! Dìkuju ti! Jsi mùj novı nejlepší pøítel!;2;1
-79;Podává ti plástev medu ;7;1
+79;…;7;1
 80;Na to nemám sílu… Zùstanu radši tady. Dìkuji ti za tvou pomoc… ;2;1
 81;Ghbrllll, nemysli si, e tì nechám jen tak projít…;2;2
 82;Tak prosím prosím?Ghrbhhhhh nemám rád lidi s planımi øeèmi a ádnımi èiny…;2;1

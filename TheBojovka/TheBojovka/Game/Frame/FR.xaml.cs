@@ -53,6 +53,8 @@ namespace TheBojovka
             IMG imageuri = new IMG(s.ID, GetFilePath(Scenes[SceneID].ID + ".gif"));
             FillScene(s, imageuri);
         }
+        //FILEWORKS ~* * 
+        #region
         //Collections
         public TheBojovka.Option[] GetOptions()
         {
@@ -78,7 +80,81 @@ namespace TheBojovka
             var Scenes = engine.ReadFile(GetDBFilePath("Player.txt"));
             return Scenes;
         }
-        //Fillings 
+        //Images 
+        public IMG ReturnNpcUri(int ID)
+        {
+            IMG someimg = new IMG();
+            if (ID > 45 && ID < 53 ||ID == 122 ) { someimg = new IMG(ID, GetFilePath(50 + "NPC.gif")); }
+            else if (ID > 52 && ID < 66 || ID == 123) { someimg = new IMG(ID, GetFilePath(60 + "NPC.gif")); }
+            else if (ID > 66 && ID < 81 || ID == 124) { someimg = new IMG(ID, GetFilePath(70 + "NPC.gif")); }
+            else if (ID > 80 && ID < 87 || ID ==125) { someimg = new IMG(ID, GetFilePath(80 + "NPC.gif")); }
+            else if (ID > 86 && ID < 98 || ID ==126) { someimg = new IMG(ID, GetFilePath(90 + "NPC.gif")); }
+            else if (ID > 97 && ID < 109 || ID ==127) { someimg = new IMG(ID, GetFilePath(100 + "NPC.gif")); }
+            else if (ID > 108 && ID < 118 || ID ==128 ) { someimg = new IMG(ID, GetFilePath(110 + "NPC.gif")); }
+            else
+            {
+                someimg = new IMG(ID, GetFilePath(ID + "NPC.gif"));
+            }
+            return someimg;
+        }
+        public IMG ReturnBackgroundUri(int ID)
+        {
+            IMG bck = new IMG();
+            //babi
+            if (ID > 45 && ID < 53 || ID ==122) { bck = new IMG(ID, GetFilePath(50 + ".gif")); }
+            //trašák
+            else if (ID > 52 && ID < 66 || ID ==123 ) { bck = new IMG(ID, GetFilePath(60 + ".gif")); }
+            //med
+            else if (ID > 66 && ID < 81 || ID ==124) { bck = new IMG(ID, GetFilePath(70 + ".gif")); }
+            //bahno
+            else if (ID > 80 && ID < 87 || ID ==125) { bck = new IMG(ID, GetFilePath(80 + ".gif")); }
+            //jezevec
+            else if (ID > 86 && ID < 98 || ID ==126) { bck = new IMG(ID, GetFilePath(90 + ".gif")); }
+            //mlha
+            else if (ID > 97 && ID < 109 || ID ==127) { bck = new IMG(ID, GetFilePath(100 + ".gif")); }
+            //jelen
+            else if (ID > 108 && ID < 118 || ID ==128) { bck = new IMG(ID, GetFilePath(110 + ".gif")); }
+            else
+            {
+                bck = new IMG(ID, GetFilePath(ID + ".gif"));
+
+            }
+            return bck;
+
+
+        }
+        //Get Paths
+        public string GetFilePath(string fileName)
+        {
+
+            string dirpath = @Directory.GetCurrentDirectory();
+            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
+            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\IMGFolder\");
+            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
+            return FullFilePath;
+
+        }
+        public string GetSoundFilePath(string fileName)
+        {
+            string dirpath = @Directory.GetCurrentDirectory();
+            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
+            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\Sounds\");
+            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
+            return FullFilePath;
+
+        }
+        public string GetDBFilePath(string fileName)
+        {
+            string dirpath = @Directory.GetCurrentDirectory();
+            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
+            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\Database\");
+            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
+            return FullFilePath;
+
+        }
+        #endregion
+
+        //Filling Scenes
         protected void FillAfterOpt(object sender, EventArgs e)
         {
             int FollowingScene = 0;
@@ -100,14 +176,26 @@ namespace TheBojovka
                 if (SceneList[i].ID == FollowingScene)
                 {
                     Scene s = new Scene(SceneList[i].ID, SceneList[i].Description, SceneList[i].Type, SceneList[i].OptionCount);
-                    IMG imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif"));
+                    IMG imageuri = new IMG();
+                    if (s.ID> 45 && s.ID < 53) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 52 && s.ID < 66) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 66 && s.ID < 81) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 80 && s.ID < 87) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 86 && s.ID < 98) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 97 && s.ID < 109) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else if (s.ID > 108 && s.ID < 118) { imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif")); }
+                    else
+                    {
+                        imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif"));
+                    }
+
+                  //  IMG imageuri = new IMG(s.ID, GetFilePath(SceneList[i].ID + ".gif"));
                     FillScene(s, imageuri);
                 }
                 
             }
 
         }
-       
         public void FillOptions(int SceneID, int limit)
         {
             ButtonPanel.Children.Clear();
@@ -138,28 +226,29 @@ namespace TheBojovka
             //NPC
             if (Scene.Type == 2)
             {
-                
-                IMG NPCuri = new IMG(Scene.ID, GetFilePath(Scene.ID + "NPC.gif"));
-                
+                IMG NPCuri = ReturnNpcUri(Scene.ID);
+                imageuri = ReturnBackgroundUri(Scene.ID);
                 FillBackgroundImage(imageuri);
                 FillNPCImage(NPCuri);
                 Description.Text = Scene.Description;
              
                 FillOptions(Scene.ID, Scene.OptionCount);
             }
-            else if (Scene.Type == 4)
+            //Casual scene
+            else if (Scene.Type == 4 || Scene.Type ==1)
             {
+                imageuri = ReturnBackgroundUri(Scene.ID);
                 FillBackgroundImage(imageuri);
                 Description.Text = Scene.Description;
                 
                 FillOptions(Scene.ID, Scene.OptionCount);
             }
-            //BOJ
+            //Fight
             else if (Scene.Type == 5)
 
             {
-                IMG NPCuri = new IMG(Scene.ID, GetFilePath(Scene.ID + "NPC.gif"));
-
+                IMG NPCuri = ReturnNpcUri(Scene.ID);
+                imageuri = ReturnBackgroundUri(Scene.ID);
                 FillBackgroundImage(imageuri);
                 FillNPCImage(NPCuri);
                 Description.Text = Scene.Description;
@@ -189,10 +278,11 @@ namespace TheBojovka
 
                 
             }      
-                     
+            //Normální scéna
             else
             {
-                FillBackgroundImage(imageuri);
+                imageuri = ReturnBackgroundUri(Scene.ID);
+                FillBackgroundImage(ReturnBackgroundUri(Scene.ID));
                 Description.Text = Scene.Description;
                 
                 FillOptions(Scene.ID, Scene.OptionCount);
@@ -211,6 +301,7 @@ namespace TheBojovka
             image.BeginInit();
 
             image.UriSource = new Uri(imageuri.Adress);
+            
             image.EndInit();
             
             ImageBehavior.SetAnimatedSource(img, image);
@@ -229,7 +320,15 @@ namespace TheBojovka
 
             var image = new BitmapImage();
             image.BeginInit();
-            image.UriSource = new Uri(imageuri.Adress);
+
+            if (File.Exists(imageuri.Adress))
+            {
+                image.UriSource = new Uri(imageuri.Adress);
+            }
+            else
+            {
+                image.UriSource = new Uri(GetFilePath(25 + ".gif"));
+            }
             image.EndInit();
 
             //ImageBehavior.SetRepeatBehavior(image,);
@@ -238,36 +337,7 @@ namespace TheBojovka
             ImageHere.Children.Add(img);
 
         }
-        //Get Paths
-        public string GetFilePath(string fileName)
-        {
-   
-            string dirpath = @Directory.GetCurrentDirectory();
-            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
-            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\IMGFolder\");
-            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
-            return FullFilePath;
-
-        }
-
-        public string GetSoundFilePath(string fileName)
-        {
-            string dirpath = @Directory.GetCurrentDirectory();
-            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
-            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\Sounds\");
-            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
-            return FullFilePath;
-
-        }
-        public string GetDBFilePath(string fileName)
-        {
-            string dirpath = @Directory.GetCurrentDirectory();
-            var gparent = Directory.GetParent(Directory.GetParent(dirpath).ToString());
-            string imgfolder = System.IO.Path.Combine(gparent.ToString(), @"Game\Database\");
-            string FullFilePath = System.IO.Path.Combine(imgfolder, @fileName);
-            return FullFilePath;
-
-        }
+        
         //FIGHT
         public void Fight(NPC Monster, Player Player)
         {
@@ -361,7 +431,7 @@ namespace TheBojovka
             return RandomNumber;
         }
 
-        //CLICKS
+        //Bottom Menu Clicks
         #region
         private void InvShow_Click(object sender, RoutedEventArgs e)
         {
@@ -381,7 +451,6 @@ namespace TheBojovka
                 Application.Current.Shutdown();
             }
         }
-        //!!!!!!
         private void ExitSave_Click(object sender, RoutedEventArgs e)
         {
             try
