@@ -36,7 +36,6 @@ namespace TheBojovka
         public FR(int SceneID, Player p, List<Item> i)
         {
             InitializeComponent();
-            PlaySound(1);
             #region
             CurrentPlayer.Add(p);
             Versus.Visibility = Visibility.Hidden;
@@ -486,13 +485,31 @@ namespace TheBojovka
         #endregion
 
         //MUSIC
-        public void PlaySound(int SceneID)
+        public void PlaySound(int ID)
         {
+            int soundID;
+            if (ID < 15) { soundID = 0; }
+            else if (ID > 52 && ID < 66 || ID == 126) { soundID = 0; }
+            else if (ID > 66 && ID < 81 || ID == 123) { soundID = 0; }
+            else if (ID > 80 && ID < 87 || ID == 125) { soundID = 0; }
+            else if (ID > 86 && ID < 98 || ID == 127) { soundID = 0; }
+            else if (ID > 97 && ID < 109 || ID == 128) { soundID = 0; }
+            else if (ID > 108 && ID < 118 || ID == 124) { soundID = 0; }
+            else if (ID == 126 || ID == 127 || ID == 128 || ID == 123 || ID == 124 || ID == 125)
+            {
+                soundID = 4;
+            }
+            else
+            {
+                soundID = 1;
+            }
 
-            if (File.Exists(GetSoundFilePath(SceneID+".wav")))
+
+            //return someimg;
+            if (File.Exists(GetSoundFilePath(ID+".wav")))
             {
                 //SoundPlayer player = new SoundPlayer(GetSoundFilePath("1.wav"));
-                SPlayer.SoundLocation = GetSoundFilePath(SceneID+".wav");
+                SPlayer.SoundLocation = GetSoundFilePath(ID+".wav");
                 SPlayer.Play();
             }
             else
