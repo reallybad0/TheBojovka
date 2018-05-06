@@ -51,23 +51,32 @@ namespace TheBojovka
 
         private void Button_Play(object sender, RoutedEventArgs e)
         {
-            var engine = new FileHelperEngine<Player>();
-            var Player = engine.ReadFile(GetDBFilePath("Player.txt"));
-
-            var engines = new FileHelperEngine<Item>();
-            var items = engines.ReadFile(GetDBFilePath("Items.txt"));
-
-            List<Item> i = new List<Item>();
-            for ( int ee = 0; ee < items.Count(); ee++)
+            try
             {
-                i.Add(items[ee]);
+                var engine = new FileHelperEngine<Player>();
+                var Player = engine.ReadFile(GetDBFilePath("Player.txt"));
+
+                var engines = new FileHelperEngine<Item>();
+                var items = engines.ReadFile(GetDBFilePath("Items.txt"));
+
+                List<Item> i = new List<Item>();
+                for (int ee = 0; ee < items.Count(); ee++)
+                {
+                    i.Add(items[ee]);
+                }
+
+
+                Player p = new Player(Player[0].Name, Player[0].hp, Player[0].Level, Player[0].FrameID);
+                Bojovka Bojovka = new Bojovka(p.FrameID, p, i);
+                Bojovka.Show();
+                Close();
+
             }
-
-
-            Player p = new Player(Player[0].Name, Player[0].hp, Player[0].Level, Player[0].FrameID);
-            Bojovka Bojovka = new Bojovka(p.FrameID, p,i);
-            Bojovka.Show();
-            Close();
+            catch
+            {
+                MessageBox.Show("Žádný pokrok nebyl nalezen! Prosím pokračujte kliknutím na ~Nová Hra~");
+            }
+         
         }
 
 
@@ -90,5 +99,6 @@ namespace TheBojovka
         {
             Frejm.Content = new NewGame();
         }
+
     }
 }

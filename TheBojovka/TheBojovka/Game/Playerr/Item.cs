@@ -12,15 +12,25 @@ namespace TheBojovka
         public int ID;
         public string Name;
         public string Description;
-        public bool Equipped;
+        public int Value;
+        public int Type;
+        /*
+        TYPES:
+        0 - edible
+        1 - exchangable 
+             
+        */
         public Item() { }
-        Item(int iD, string name, string description,bool equipped)
+
+        public Item(int iD, string name, string description, int value, int type)
         {
             ID = iD;
             Name = name;
             Description = description;
-            Equipped = equipped;
+            Value = value;
+            Type = type;
         }
+
         public override string ToString()
         {
             return Name;

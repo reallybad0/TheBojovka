@@ -45,9 +45,7 @@ namespace TheBojovka.Home
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //IF v databázi již záznam => messagebox ("Nová hra smaže starou :l ")
-            //NAČÍST Z DATABÁZE
-            //z databáze
+            
             try
             {
                 List<Item> i = new List<Item>();
